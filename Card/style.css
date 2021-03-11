@@ -1,0 +1,15 @@
+.wrapper-items{
+    margin: 5em;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-template-rows: repeat(3, minmax(200px, 1fr));
+    gap: 1em 2em;
+    max-height: 768px;
+    min-height: 300px;
+}
+
+.wrapper-items >.items {
+    background-color: gray;
+    border: 1px solid;
+    border-radius: 5px;
+}
