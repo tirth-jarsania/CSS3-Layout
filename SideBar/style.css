@@ -1,0 +1,108 @@
+.flex-container{
+    box-sizing: border-box;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.header-container {
+    background-color : gray;
+    width: 100%;
+    height: 70px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 1px solid;
+}
+
+.title {
+    color: white;
+    text-align : center;
+    font-weight : bold;
+    padding: 15px;
+    margin: 0;
+}
+
+.sidebar-item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 200px;
+    border-right: 3px solid;
+    height: 623px;
+}
+
+.sidebar-c1 {
+    margin: 0;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgba(36, 32, 32, 0.815);
+    font-family: -apple-system;
+    height: 27.5px;
+    border-bottom: 0.1px solid whitesmoke;
+}
+
+.sidebar-c2 {
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 10px;
+    color:white;
+    background-color: rgba(36, 32, 32, 0.815);
+    font-family: -apple-system;
+    padding-bottom: 10px;
+}
+
+.sidebar-c3 {
+    padding-top: 10px;
+    margin: 0;
+    color:white;
+    background-color: rgba(36, 32, 32, 0.815);
+    height:inherit;
+}
+
+li {
+    list-style-type : '> ';
+}
+.main-content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 623px;
+    width: calc(100% - 203px);
+}
+
+.navbar-items {
+    margin : 0;
+    background-color: rgba(36, 32, 32, 0.815);
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    border-bottom: 0.1px solid;
+    height: 30px;
+}
+
+.bt-inactive {
+    margin: 0;
+    padding : 5px 10px;
+    color: rgb(185, 177, 177);
+    background-color: rgb(102, 98, 98);
+    border-right: 0.1px solid ;
+}
+
+.bt-active {
+    margin: 0;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    border-right: 0.1px solid black;
+}
+
+.codeblock {
+    overflow: auto;
+    height: inherit;
+}
