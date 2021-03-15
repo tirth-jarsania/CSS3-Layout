@@ -1,0 +1,26 @@
+@import '_variables';
+@import '_mixin';
+
+.sticky-section{
+    height: 1000px;
+    overflow: auto;
+    .section-1{
+        @include section($black);
+    }
+
+    .section-2{
+        @include section($dark_gray);
+    }
+
+    .section-3{
+        @include section($med_gray);
+    }
+
+    .section-4{
+        @include section($light_gray);
+    }
+
+    .section-5{
+        @include section($white);
+    }
+}

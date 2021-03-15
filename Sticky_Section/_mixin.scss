@@ -1,0 +1,7 @@
+@mixin section($color){
+    background-color: $color;
+    height: 100%;
+    width: 100%;
+    position: sticky;
+    margin: 0;
+}
